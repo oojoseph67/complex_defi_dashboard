@@ -1,4 +1,5 @@
-import { createClient, configureChains, defaultChains, WagmiConfig, mainnet } from 'wagmi';
+import { createClient, configureChains, defaultChains, WagmiConfig} from 'wagmi';
+import { mainnet, polygon, bsc } from 'wagmi/chains'
 import { publicProvider } from 'wagmi/providers/public';
 import { ChainId, ThirdwebProvider } from '@thirdweb-dev/react';
 import Head from "next/head";
